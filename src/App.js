@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React from "react"
 import './App.css';
+import { Captions } from "./Captions"
+// import "node_modules/video-react/dist/video-react.css";
+// import "~video-react/styles/scss/video-react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Captions/>
     </div>
-  );
+    );
 }
+
 
 export default App;
